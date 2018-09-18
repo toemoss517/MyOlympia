@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3206B6E61FB7D31400A4A5FA /* PopUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3206B6E51FB7D31400A4A5FA /* PopUpVC.swift */; };
+		324A32B91F3A90550000CF91 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324A32B81F3A90550000CF91 /* RoundButton.swift */; };
+		324A32BD1F3A94E50000CF91 /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324A32BC1F3A94E50000CF91 /* CircleImageView.swift */; };
+		324FC23A1F9987A20002B343 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324FC2391F9987A20002B343 /* CommentCell.swift */; };
+		324FC23C1F998CB30002B343 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324FC23B1F998CB30002B343 /* Comment.swift */; };
+		3253C94E1F85BB0B0014FDB5 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A7154C1F709BCB00572314 /* FeedVC.swift */; };
+		325E8D821F3EA145001C6757 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325E8D811F3EA145001C6757 /* Post.swift */; };
+		326537B31FCFA270006C3733 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 326537B21FCFA270006C3733 /* GoogleService-Info.plist */; };
+		3266DA1B1FE2130D004C073E /* ResetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3266DA1A1FE2130C004C073E /* ResetPasswordVC.swift */; };
+		326808281F37B20400BC1D94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326808271F37B20400BC1D94 /* AppDelegate.swift */; };
+		3268082D1F37B20400BC1D94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3268082B1F37B20400BC1D94 /* Main.storyboard */; };
+		3268082F1F37B20400BC1D94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3268082E1F37B20400BC1D94 /* Assets.xcassets */; };
+		326808321F37B20400BC1D94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 326808301F37B20400BC1D94 /* LaunchScreen.storyboard */; };
+		3268083F1F37E42600BC1D94 /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3268083E1F37E42600BC1D94 /* FancyView.swift */; };
+		326808441F37E7AA00BC1D94 /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326808431F37E7AA00BC1D94 /* FancyField.swift */; };
+		326808461F37E91100BC1D94 /* FancyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326808451F37E91100BC1D94 /* FancyButton.swift */; };
+		32A041B01F3E1E8B00E31D84 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A041AF1F3E1E8B00E31D84 /* PostCell.swift */; };
+		32A7154F1F709BD200572314 /* UserCreateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A7154E1F709BD200572314 /* UserCreateVC.swift */; };
+		32A715511F709BD600572314 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A715501F709BD600572314 /* SignInVC.swift */; };
+		32C38D911F8D8D2000E173F4 /* CommentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C38D901F8D8D2000E173F4 /* CommentVC.swift */; };
+		32C633BC1F811B9A00BA2120 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C633BB1F811B9A00BA2120 /* DataService.swift */; };
+		32E152081F9AED6000F74321 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E152071F9AED6000F74321 /* SettingsVC.swift */; };
+		70D2F8B0D8961EDD132A2702 /* Pods_MyOlympia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEABCB0A1BFCEBC9E7341C86 /* Pods_MyOlympia.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3206B6E51FB7D31400A4A5FA /* PopUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpVC.swift; sourceTree = "<group>"; };
+		324A32B81F3A90550000CF91 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		324A32BC1F3A94E50000CF91 /* CircleImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
+		324FC2391F9987A20002B343 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		324FC23B1F998CB30002B343 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		325E8D811F3EA145001C6757 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		326537B21FCFA270006C3733 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3266DA1A1FE2130C004C073E /* ResetPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordVC.swift; sourceTree = "<group>"; };
+		326808241F37B20400BC1D94 /* MyOlympia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyOlympia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		326808271F37B20400BC1D94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3268082C1F37B20400BC1D94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3268082E1F37B20400BC1D94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		326808311F37B20400BC1D94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		326808331F37B20400BC1D94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3268083E1F37E42600BC1D94 /* FancyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
+		326808431F37E7AA00BC1D94 /* FancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
+		326808451F37E91100BC1D94 /* FancyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyButton.swift; sourceTree = "<group>"; };
+		32A041AF1F3E1E8B00E31D84 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		32A7154C1F709BCB00572314 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 5; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		32A7154E1F709BD200572314 /* UserCreateVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCreateVC.swift; sourceTree = "<group>"; };
+		32A715501F709BD600572314 /* SignInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		32C38D901F8D8D2000E173F4 /* CommentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentVC.swift; sourceTree = "<group>"; };
+		32C633BB1F811B9A00BA2120 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		32E152071F9AED6000F74321 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		538A482337A28E88307F6A80 /* Pods-MyOlympia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyOlympia.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyOlympia/Pods-MyOlympia.debug.xcconfig"; sourceTree = "<group>"; };
+		D8E60F02C50F5F6F8396E00C /* Pods-MyOlympia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyOlympia.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyOlympia/Pods-MyOlympia.release.xcconfig"; sourceTree = "<group>"; };
+		EEABCB0A1BFCEBC9E7341C86 /* Pods_MyOlympia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyOlympia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		326808211F37B20400BC1D94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70D2F8B0D8961EDD132A2702 /* Pods_MyOlympia.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		020253F61615B67224E5F27F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEABCB0A1BFCEBC9E7341C86 /* Pods_MyOlympia.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		171BAF897E7A7AE2387384F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				538A482337A28E88307F6A80 /* Pods-MyOlympia.debug.xcconfig */,
+				D8E60F02C50F5F6F8396E00C /* Pods-MyOlympia.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3268081B1F37B20400BC1D94 = {
+			isa = PBXGroup;
+			children = (
+				326808261F37B20400BC1D94 /* MyOlympia */,
+				326808251F37B20400BC1D94 /* Products */,
+				171BAF897E7A7AE2387384F3 /* Pods */,
+				020253F61615B67224E5F27F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		326808251F37B20400BC1D94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				326808241F37B20400BC1D94 /* MyOlympia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		326808261F37B20400BC1D94 /* MyOlympia */ = {
+			isa = PBXGroup;
+			children = (
+				3268083D1F37BA7500BC1D94 /* Model */,
+				3268083C1F37BA7000BC1D94 /* View */,
+				3268083B1F37BA6700BC1D94 /* Controller */,
+				326808271F37B20400BC1D94 /* AppDelegate.swift */,
+				32C633BB1F811B9A00BA2120 /* DataService.swift */,
+				3268082B1F37B20400BC1D94 /* Main.storyboard */,
+				3268082E1F37B20400BC1D94 /* Assets.xcassets */,
+				326808301F37B20400BC1D94 /* LaunchScreen.storyboard */,
+				326537B21FCFA270006C3733 /* GoogleService-Info.plist */,
+				326808331F37B20400BC1D94 /* Info.plist */,
+			);
+			path = MyOlympia;
+			sourceTree = "<group>";
+		};
+		3268083B1F37BA6700BC1D94 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				32A715501F709BD600572314 /* SignInVC.swift */,
+				32A7154E1F709BD200572314 /* UserCreateVC.swift */,
+				32A7154C1F709BCB00572314 /* FeedVC.swift */,
+				32C38D901F8D8D2000E173F4 /* CommentVC.swift */,
+				32E152071F9AED6000F74321 /* SettingsVC.swift */,
+				3206B6E51FB7D31400A4A5FA /* PopUpVC.swift */,
+				3266DA1A1FE2130C004C073E /* ResetPasswordVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		3268083C1F37BA7000BC1D94 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3268083E1F37E42600BC1D94 /* FancyView.swift */,
+				326808431F37E7AA00BC1D94 /* FancyField.swift */,
+				326808451F37E91100BC1D94 /* FancyButton.swift */,
+				324A32B81F3A90550000CF91 /* RoundButton.swift */,
+				324A32BC1F3A94E50000CF91 /* CircleImageView.swift */,
+				32A041AF1F3E1E8B00E31D84 /* PostCell.swift */,
+				324FC2391F9987A20002B343 /* CommentCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3268083D1F37BA7500BC1D94 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				325E8D811F3EA145001C6757 /* Post.swift */,
+				324FC23B1F998CB30002B343 /* Comment.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		326808231F37B20400BC1D94 /* MyOlympia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 326808361F37B20400BC1D94 /* Build configuration list for PBXNativeTarget "MyOlympia" */;
+			buildPhases = (
+				B783EECC0A8497DE4471B95B /* [CP] Check Pods Manifest.lock */,
+				326808201F37B20400BC1D94 /* Sources */,
+				326808211F37B20400BC1D94 /* Frameworks */,
+				326808221F37B20400BC1D94 /* Resources */,
+				4AA43CF30BC6521DF029B83C /* [CP] Embed Pods Frameworks */,
+				47279F1BF95405C2E2793BE6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyOlympia;
+			productName = Social;
+			productReference = 326808241F37B20400BC1D94 /* MyOlympia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3268081C1F37B20400BC1D94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = ToeMoss;
+				TargetAttributes = {
+					326808231F37B20400BC1D94 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 47W8SRFA4R;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3268081F1F37B20400BC1D94 /* Build configuration list for PBXProject "MyOlympia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3268081B1F37B20400BC1D94;
+			productRefGroup = 326808251F37B20400BC1D94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				326808231F37B20400BC1D94 /* MyOlympia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		326808221F37B20400BC1D94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				326808321F37B20400BC1D94 /* LaunchScreen.storyboard in Resources */,
+				326537B31FCFA270006C3733 /* GoogleService-Info.plist in Resources */,
+				3268082F1F37B20400BC1D94 /* Assets.xcassets in Resources */,
+				3268082D1F37B20400BC1D94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		47279F1BF95405C2E2793BE6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyOlympia/Pods-MyOlympia-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AA43CF30BC6521DF029B83C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MyOlympia/Pods-MyOlympia-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyOlympia/Pods-MyOlympia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B783EECC0A8497DE4471B95B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyOlympia-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		326808201F37B20400BC1D94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E152081F9AED6000F74321 /* SettingsVC.swift in Sources */,
+				3206B6E61FB7D31400A4A5FA /* PopUpVC.swift in Sources */,
+				324A32B91F3A90550000CF91 /* RoundButton.swift in Sources */,
+				32C633BC1F811B9A00BA2120 /* DataService.swift in Sources */,
+				325E8D821F3EA145001C6757 /* Post.swift in Sources */,
+				3266DA1B1FE2130D004C073E /* ResetPasswordVC.swift in Sources */,
+				326808281F37B20400BC1D94 /* AppDelegate.swift in Sources */,
+				324FC23A1F9987A20002B343 /* CommentCell.swift in Sources */,
+				326808441F37E7AA00BC1D94 /* FancyField.swift in Sources */,
+				3253C94E1F85BB0B0014FDB5 /* FeedVC.swift in Sources */,
+				32A7154F1F709BD200572314 /* UserCreateVC.swift in Sources */,
+				32A715511F709BD600572314 /* SignInVC.swift in Sources */,
+				324A32BD1F3A94E50000CF91 /* CircleImageView.swift in Sources */,
+				324FC23C1F998CB30002B343 /* Comment.swift in Sources */,
+				326808461F37E91100BC1D94 /* FancyButton.swift in Sources */,
+				32A041B01F3E1E8B00E31D84 /* PostCell.swift in Sources */,
+				32C38D911F8D8D2000E173F4 /* CommentVC.swift in Sources */,
+				3268083F1F37E42600BC1D94 /* FancyView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3268082B1F37B20400BC1D94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3268082C1F37B20400BC1D94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		326808301F37B20400BC1D94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				326808311F37B20400BC1D94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		326808341F37B20400BC1D94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		326808351F37B20400BC1D94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		326808371F37B20400BC1D94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 538A482337A28E88307F6A80 /* Pods-MyOlympia.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47W8SRFA4R;
+				INFOPLIST_FILE = MyOlympia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.toeMossswift.MyOlympia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		326808381F37B20400BC1D94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8E60F02C50F5F6F8396E00C /* Pods-MyOlympia.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47W8SRFA4R;
+				INFOPLIST_FILE = MyOlympia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.toeMossswift.MyOlympia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3268081F1F37B20400BC1D94 /* Build configuration list for PBXProject "MyOlympia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				326808341F37B20400BC1D94 /* Debug */,
+				326808351F37B20400BC1D94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		326808361F37B20400BC1D94 /* Build configuration list for PBXNativeTarget "MyOlympia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				326808371F37B20400BC1D94 /* Debug */,
+				326808381F37B20400BC1D94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3268081C1F37B20400BC1D94 /* Project object */;
+}
